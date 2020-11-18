@@ -13,6 +13,7 @@ header h1 {
 body {
 	background-color: #f7f6f6;
 	font-family: "Lucida Console";
+	margin: 0px;
 }
 header h2 {
 	font-size: 20px;
@@ -109,20 +110,26 @@ header h2 {
 	margin-top: 30px;
 	height: 130px;
 }
-.Carrosel {
-	margin-left: 160px;
-	margin-top: 30px;
-	height: 440px;
-	width: 1172px;
+.Meio{
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+	height: 800px;
 }
-.Carrosel img{
+
+.Meio #Carrosel {
+	height: 450px;
+}
+.Meio #Carrosel img{
 	height: 440px;
 	width: 1172px;
 	float: left;
     position: relative;
 
 }
-.Carrosel #Texto1 h2{
+.Meio #Carrosel #Texto1 h2{
 	margin-top: 50px;
 	margin-left: 50px;  
 	background-color: rgba(0, 0, 0, 0.5);
@@ -130,7 +137,7 @@ header h2 {
 	color: white;
 	padding: 25;	
 }
-.Carrosel #Texto1 p{
+.Meio #Carrosel #Texto1 p{
 	margin-top: 150px;
 	margin-left: 50px;  
 	position: absolute;
@@ -138,49 +145,49 @@ header h2 {
 	color: white;
 	padding: 25;
 }
-.Recomendado{
-	margin-left: 160px;
+.Meio #Recomendado{
+	width: 1172px;
 	height: 300px;
 	color: white;
 	font-size: 30;
 }
-.Recomendado #titulo {
+.Meio #Recomendado #titulo {
 	color: black;
 	margin-top: 42px;	
 }
 
-.Recomendado section {
+.Meio #Recomendado section {
 	margin-top: 32px;	
 	background-color: #d757f6;
 	width: 272px;
 	height: 186px;
 }
-.Recomendado section img{
+.Meio #Recomendado section img{
 	width: 258px;
 	height: 121px;	
 	margin-left: 7px;
 	margin-top: 7px;
 }
-.Recomendado section div{
+.Meio #Recomendado section div{
 	margin-left: 7px;
 	margin-top: 15px;	
 }
-.Recomendado #section1 {
+.Meio #Recomendado #section1 {
 	position: absolute;	
 }
-.Recomendado #section2 {
+.Meio #Recomendado #section2 {
 	margin-left: 300px;
 	position: absolute;	
 }
-.Recomendado #section3 {
+.Meio #Recomendado #section3 {
 	margin-left: 600px;
 	position: absolute;	
 }
-.Recomendado #section4 {
+.Meio #Recomendado #section4 {
 	margin-left: 900px;
 	position: absolute;	
 }
-.Recomendado section:hover {
+.Meio #Recomendado section:hover {
 	cursor: pointer;
 	transform: scale(1.1);
 }
